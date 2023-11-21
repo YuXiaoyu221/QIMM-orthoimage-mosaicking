@@ -1,4 +1,4 @@
-# cloud-free-image-mosaicking-based-on-quadtree-iterative-procedure
+# A Fast Image Mosaicking Method Based on Iteratively Minimizing Cloud Coverage Areas
 In order to minimize the cloud coverage areas while generating the mosaic image of large areas, a fast image mosaicking method based on a quadtree iterative procedure is proposed here. This method takes every cloud coverage area as a unit of minimization. For each cloud coverage area, the available image, which is cloud-free in the corresponding area, will be searched first. If the search is successful, the cloud coverage area can be minimized by replacing cloud coverage area directly; if the search fails, it means that no available image can minimize the cloud coverage area directly. Then, the quadtree iterative algorithm is used to repartition the cloud coverage area into four subareas. Then for each subarea, the available image will be searched again. The process is carried out iteratively until the cloud coverage area is minimized or its size is less than a specified threshold.
 
 
